@@ -1,0 +1,205 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}	%automatic links to sections, figures, references
+\usepackage[all]{hypcap}%links to top of figures
+\usepackage{soul}		%highlighting with \hl{}
+\usepackage{color}		%color, also color highlighting
+\usepackage{xcolor}
+\usepackage{setspace}	%line spacing
+\usepackage{multirow}	%multirow and multicolumn cells in tables
+\usepackage{subfig}		%\subfloat in figures
+\usepackage{multicol}
+\usepackage{paracol}
+%\usepackage[version=3]{mhchem}		%\ce{} for chemical formulae
+\usepackage{wrapfig}	%\begin{wrapfigure}
+\usepackage{lscape}
+\usepackage{enumerate}
+\usepackage[toc,page]{appendix}
+\usepackage[final]{pdfpages}
+\usepackage{amsfonts}              % for blackboard bold, etc
+\usepackage{amsthm}                % better theorem environments
+
+\usepackage{tabularx}
+\usepackage{geometry}
+\geometry{letterpaper, portrait, left=0.75in, right=0.75in, bottom=1.5in}
+
+\usepackage{array}
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1.5cm\itemold}
+\usepackage[none]{hyphenat}
+\newcommand{\dmel}{\textit{Drosophila melanogaster }}
+\title{Investigating centromeric transcription in \dmel}
+\author{Bianca Mocanu}
+
+%header
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R]{\footnotesize \textit{Exit document}}
+\fancyhead[L]{\footnotesize B. Mocanu}
+\cfoot{\thepage}
+% -- 
+%-------------
+
+\begin{document}
+% The writing has a clear audience: a PhD-level geneticist who may or may not be an expert on the topic paper you are writing about.
+% The topic and purpose of the piece are clear.
+% The piece shows that the author is an expert, has read relevant literature, and has formed ideas and/or connections about the topic.
+% The piece cites both primary literature and reviews and these are properly formatted (use a reference manager software; DO NOT type your references by hand).
+% The piece is well organized and includes a title, short abstract, introduction, and subheadings (results or sub-topics), conclusions, and a final discussion which includes an outlook into future research.
+% Format: 8-10 pages (not including references and figures), 1.5 lines spaced, 0.75 margins, figures embedded in the text accompanied by legends.
+
+\onehalfspacing
+\begin{titlepage}
+\newgeometry{left=0.75in,right=0.75in,top=0.5in,bottom=0.5in}
+\begin{center}
+\hspace{-1.1cm}\includegraphics[scale=0.6]{uconnlogo.png} 
+\end{center}
+\begin{center}
+{
+\noindent \Large{\textbf{Investigating DNA sequences of \textit{Drosophila melanogaster} centromeres }}\\
+\vspace{0.7cm}
+Bianca Mocanu\\
+\vspace{0.5cm}
+\small{Exit document for Masters of Science in Genetics and Genomics}\\
+
+\vspace{0.7cm}
+}
+\end{center}
+\begin{center}
+\hrule
+\section*{{\textbf{Abstract}}}
+\hrule
+\end{center}
+\vspace{0.5cm}
+\noindent The even distribution of genetic material during cell division is strongly dependent upon the correct assembly of a special chromosomal region known as the centromere. The centromeres are epigenetically determined by a special nucleosome containing a histone H3 variant (CenH3) which is both necessary and sufficient for centromere function. Despite its conserved role in accurate chromosome segregation, the centromere and its components are subjected to rapid evolution in many organisms, possibly driven by genetic conflicts during the asymmetric process of ovogenesis. The repetitive nature of the underlying DNA of most centromeres renders them difficult to sequence and conceals valuable information regarding their structure and function. The current document iterates the main hypotheses about centromeres and findings that support them, with a focus on \dmel. Latest efforts to sequence the fruit fly centromeres and to allocate them to the respective X,2,3,4 and Y chromosomes reveal several candidate contigs displaying a core of CenH3 binding, relatively complex DNA immersed in simple satellite sequences of yet unknown size.\\
+
+\hrule
+\hrule
+\vspace{0.5cm}
+
+\normalfont \vspace{1cm}
+\noindent Major advisor: Prof. Dr. Barbara Mellone\\
+
+\noindent Associate advisor: Prof. Dr. Rachel O'Neill\\
+
+\noindent Associate advisor: Prof. Dr. Leighton Core \begin{flushright} \today
+\end{flushright}
+\end{titlepage}
+
+\newgeometry{left=0.75in,right=0.75in,top=1.5in,bottom=1.5in}
+
+\clearpage\thispagestyle{empty}\addtocounter{page}{-1} 
+\section*{\normalsize STATUTORY DECLARATION}
+\vspace{3cm}
+With my signature, I certify that this document has been written by me using only the indicated resources and materials. I further confirm that this document has not been submitted, either in part or as a whole, for any other academic degree at this or another institution.\\
+
+\vspace{3cm}
+
+\noindent \hspace{2cm} Bianca Mocanu \hspace{8cm} Storrs, Connecticut, USA\\
+\begin{flushright}
+\today
+\end{flushright}
+\pagebreak
+\clearpage
+\section{\footnotesize INTRODUCTION}
+\normalsize \noindent Centromeres are essential chromosomal structures that act as a platform for kinetochore assembly and microtubule attachment, ensuring accurate chromosome segregation \cite{cheeseman2015}. In almost all studied eukaryotes, centromeres are epigenetically defined by a particular centromeric nucleosome which contains a histone H3 variant (CenH3). Despite the crucial and invariable role the centromere conducts in the cell division process, there is great variation between the centromeric DNA sequences of closely related organisms and, often, variations between the centromeric sequences of different chromosomes within the same species. Across Eukarya, centromeric DNA size varies from as little as 125 base pairs in \textit{S. cerevisiae}'s 'point' centromere to megabases in humans \cite{pointcentromere}.\\
+
+\noindent Centromere research is particularly challenging since any interference with the chromosome \linebreak segregation process results in severe genomic defects and general genomic instability \cite{leah.review}. \linebreak Furthermore, the lack of sequence conservation is topped by the highly repetitive nature of the underlying DNA for most (but not all) centromeres of organisms with monokinetic chromosomes (i.e. possessing a single centromere per chromosome).  Although there are big technical challenges in obtaining a reliable linear genetic map, some insight has been gained into the arrangement of the repetitive DNA of various centromeres. Currently there is no general pattern observed among different centromeres, as each organism appears to have a different arrangement. This observation adds even more complexity to centromere organization and calls for efforts to resolve linear genetic maps for each centromere of each organism separately \cite{RachelBookCH}. \\
+
+\noindent Due to their condensed nature, it has been long assumed that centromeres as a whole were \linebreak transcriptionally inactive and displayed a heterochromatin state. However, in order for centromeres to properly function, a finely tuned level of transcription seems to be required. In budding yeast, altering the transcription levels at the centromere in either direction results in chromosome segregation defects \cite{yeast.cen.transcription} . Likewise, in synthetic human artificial chromosomes (HACs), silencing or strong upregulation of transcription both impair centromere function by preventing CenH3 deposition or by causing its rapid removal, respectively \cite{BergmannUP}. All things considered, one hypothesis is that low transcription at centromeric sites could provide the ideal chromatin environment to either load the centromeric histone de novo during centromere establishment or to replenish the centromeric histone following dilution after S phase / cell division.\\
+
+\noindent Until recently, it has been difficult to prove a causation between transcription and deposition of \linebreak centromeric histones, for several reasons. First, CenH3 replenishment happens in the context of it already being present at the endogenous centromeres whose centromeric nucleosomes are maintained just like any epigenetic mark. Secondly, from a bioinformatics perspective, the lack of centromeric sequence assemblies prompts algorithms to discard unaligned transcripts, when the latest genome reference is used. Work on \dmel in the Mellone lab \cite{ChinChiFACT} bypassed some of these issues through the use of an artificial, inducible, ectopic centromere assembled on an external array of LacO repeats and, therefore, of known sequence. By fusing a CenH3 chaperone to LacI, they were able to bring CenH3 in physical proximity to the LacO array and correlate fluctuations in transcription with deposited centromeric histones at the array and sites bordering the \linebreak LacO array \cite{ChinChiFACT}.\\
+
+\noindent This is, of course, only one of countless cases in which \dmel proved to be an excellent model organism. Thanks to its genetic similarity to humans and thanks to an army of genetic tools developed over the past century, \textit{Drosophila} is a great model in the context of centromere research as well. Having only 4 monokinetic chromosomes and a relatively small genome size, it is a good candidate in obtaining complete genetic assemblies and maps of all its centromeres. Without a proper assembly of centromeric sequences, it is only possible to examine e.g. transcription in a mapping-free approach, as there is no reliable reference to align this data to. This also makes it difficult to investigate and identify new centromeric features such as epialleles or rare variants of satellites and transposons and to accurately estimate their abundance. Metastable epialleles have been recently described in humans, yet it is unknown whether this is a common feature of repetitive centromeres \cite{epialleles}. Moreover, increasing evidence suggests that centromeric sequences such as the dodeca satellite in \dmel may have been selected not by their primary sequence, but by their ability to form noncanonical secondary structures which ultimately orchestrate the interaction of the DNA with its protein partners \cite{dodecaimotifs}. Having assembled centromeres and the order in which satellites and transposons occur might help speculate about their functions in the underlying DNA. Despite the recent advances in genomics and ultra long read sequencing, contiguous sequences for such highly repetitive structures are yet to be elucidated.
+\vspace{0.9cm}
+
+\section{\footnotesize EPIGENETIC ASPECTS OF CENTROMERES}
+\normalsize Due to the dissimilarity of the centromeres, defining boundaries for them is not trivial. One epigenetic mark for the centromere, valid across all centromeres -- regardless of size or \linebreak localization -- is the centromeric histone variant. Centromeric histones, denoted CenH3s, are variants of the Histone H3 family of proteins. These variants are necessary and suficient for centromeric activity and essential for accurate chromosome segregation. In all the eukaryotic organisms examined so far, there is a single gene encoding CenH3 but, unlike canonical histones, they have a high degree of sequence variability even among closely related species \cite{wiens}.\\
+
+\normalsize \noindent For example, in the case of closely related \textit{Drosophila} species, the centromeric histones appear to be positively selected. Within the CenH3 protein itself, the selection is localized to the N-terminal tail and to Loop 1 of the histone fold domain -- both with significant functional importance in targeting of CenH3 to centromeric DNA. Such sequence variation among CenH3s suggests that there is likely a DNA-binding specificity factor that drives the positive selection for this gene \cite{leah.review}. Outside \textit{Drosophila} genus, similar selection patterns are observed for the well studied plant model \textit{Arabidopsis thaliana} \cite{Malik2009}.\\
+
+\normalsize \noindent The positive selection and rapid evolution is not only observed for CenH3 proteins. In cases where CenH3 positive selection is not as accentuated, such as in humans and in other mammals, the CenH3 binding, inner kinetochore protein CENP-C is reported to be more rapidly evolving \cite{Malik2009}. In flies, in addition to the positive selection imposed on CenH3, its assembly factor CAL1 has been proved to be co-evolving with CenH3 \cite{leah.evo.paper}. A series of transfection experiments performed by the Mellone Lab reveal that while 'foreign', exogenous CenH3 of distant \textit{Drosophila} species are unable to be targeted to the centromeric DNA of \dmel alone, they are able to be rescued if their corresponding 'foreign' CAL1 is also co-expressed \cite{leah.evo.paper}. These observations of rapid evolution in centromeric DNA and centromeric proteins are indicative of a constant intragenomic competition that drives the changes in these centromeric components.
+
+\subsection{\footnotesize THE MEIOTIC DRIVE HYPOTHESIS}
+
+\normalsize \noindent The variability of centromeric DNA and of centromeric histones seems paradoxical. Due to the crucial and universal role it serves in the process of cell division, one would expect the centromere as a whole to be under a strong evolutionary constraint. One hypothesis named ''meiotic drive'' aims to elegantly explain this paradox by highlighting one genetic conflict the centromeres are found in during the asymmetric meiosis events of oogenesis.\\
+
+\noindent The reduction division of meiosis I involves the separation of homologous chromosomes of a diploid cell and yields, in theory, two haploid secondary oocytes. However, the asymmetric spindle of meiosis I and subsequent uneven distribution of cytoplasm during cytokinesis most often lead to the formation of only one secondary oocyte and one smaller product that does not develop into an ovum, called 'polar body'. Due to this, one hypothesis is that chromosomes try to favor their own transmission to the egg rather than being lost in polar bodies and they do so by developing 'stronger' centromeres \cite{meioticdrivereviewAL}. Currently, several experiments and observations in mice and \textit{Drosophila} validate the meiotic drive hypothesis and further describe 'strong' centromeres as those that bind more centromeric and kinetochore proteins and that detach from microtubules more easily, most often in regions of the cytoplasm that maximize the likelihood of them being retained \linebreak in the egg \cite{Malik2009}. Such an example is depicted in Figure 1.\\
+
+\begin{center}
+\includegraphics[scale=0.8]{meioticdrive.jpg} \\\end{center}
+\noindent \footnotesize \textbf{Figure 1.} Model for meiotic drive in mice \cite{mice.meioticdrive}. Two pairs of acrocentric homologous chromosomes are depicted segregating during an asymmetric meiosis 1 event. The asymmetry of the spinde is highlighted by different microtubule shades of green. Chromosome orientation towards the center of the cell is deemed as 'winning', as is has the maximum probability of being distributed to the oocyte during cytokinesis. The upper homolog pair exhibits centromeric heterozygosity in the sense that one homolog has 'stronger' centromeres which favor its transmission to the egg.\\
+\pagebreak
+
+\normalsize \noindent Mechanistically, one way to achieve this directly involves centromeric DNA and is backed by comparisons of mice strains with different levels of microtubule-binding kinetochore proteins such as HEC1 at centromeres. The 'strength' of the centromeres, when defined by the HEC1 protein levels, is directly correlated with the enrichment of the minor satellite (the most abundant DNA component of mouse centromeres) in CenH3 native chromatin immunoprecipitation experiments \cite{mice.meioticdrive}. If the presence of more minor satellite results in binding of more CenH3 and subsequent strengthening of the centromere, this highlights a potential role for the underlying DNA and also speculates that the centromeric histones could, in fact, mutate in response, in an effort to cancel out this advantage.\\
+
+\subsection{\footnotesize EPIGENETIC DEFINITION SHORTCOMINGS}
+
+\noindent \normalsize The meiotic drive hypothesis challenges the opinion that centromeres of most organisms are solely epigenetically defined. Despite being robust, the epigenetic definition of the centromere fails to explain the contribution of the underlying DNA sequences. In addition to the rapid evolution of the centromeric proteins that suggests a (yet unidentified) preference for the bound DNA, there are more aspects that further challenge this current opinion.\\
+
+\noindent Apart from the sequence-defined point centromere of the budding yeast, there are two more genetic ways in which the centromeres could be specified: through proteins that bind sequence-specific DNA and through other sequence-dictated features such as DNA secondary structures -- stem loops, hairpins, triplexes, commonly referred to as non-B-form DNA. \cite{henikoffpaper} \\
+
+\noindent So far, the only identified protein that binds centromeres in a sequence-specific manner is the CENP-B protein which is highly conserved in mammals. Paradoxically, the CENP-B DNA binding motifs, called CENP-B boxes, are not present in all mammalian genomes and, as is the case for the Y chromosome in humans, some chromosomes within a genome with CENP-B boxes actually lack them \cite{henikoffpaper}. Transfection studies from as far back as 1997 using yeast artificial chromosome (YAC) systems with cloned human centromeric satellite arrays aimed to explain this paradox and confirmed that arrays with CENP-B boxes can form de novo HACs upon transfection of YACs into human cells, while those with mutated CENP-B boxes cannot. The presence of CENP-B boxes in humans seemed required for de novo centromere assembly, despite the fact that the Y chromosome alone is capable of assembling a functional centromere in vivo \cite{HACspaperHarrington} \cite{HACspaperMasumoto}.\\
+
+\noindent One study examining vertebrates, fission yeast, and plants investigated the correlation between the abundance of DNA dyad symmetries -- energetically favored to adopt non-B-form DNA \linebreak conformations -- and the prevalence of CENP-B boxes within centromeric satellite sequences. \linebreak Starting with publicly available Illumina whole genome sequencing data, they retrieved sequences poorly represented in the genome assemblies and showed that great apes and mouse centromeres were depleted of dyads, as opposed to old world monkeys, yeast and chicken. By scanning the centromeres for CENP-B binding motifs, they were able to show that there is a negative correlation between CENP-B binding motifs and dyad symmetries. This observation holds true not only among various organisms but also for the case of human centromere Y, which, as opposed to the other human centromeres, lacks CENP-B motifs and is predicted to form non-B DNA structures more readily. In their discussion, the authors bring into picture HJURP, the human centromeric histone assembly factor – initially named because of its cruciform DNA binding preferences – and speculate how, in dyad-depleted organisms, CENP-B can facilitate the structural transition necessary for cruciform formation, HJURP binding and ultimately centromeric histone deposition. They also point out that in organisms lacking CENP-B motifs, the centromeric transcripts originating from the non-B form DNA conformations might adopt secondary structures themselves without external aid. The study, however, leaves out \dmel centromeres \cite{henikoffpaper}.\\
+
+\section{\footnotesize DROSOPHILA SEQUENCING AND ASSEMBLY EFFORTS}
+
+\normalsize \noindent Having a complete DNA sequence assembly for the centromeres of \textit{Drosophila} would be of great use, in order to understand their structure, characterize them and contribute to the validation of some hypotheses that currently concern centromeres. Recent technologies such as Pacific Biosciences and Oxford Nanopore allow for the generation of ultra long reads originating from single molecules, with overall base calling accuracy as high as 85\%. These long reads can then serve as a scaffold for and be complemented by numerous, more accurate short reads generated for example by Illumina from whole genome sequences \cite{BethReviewFutureGenomics}.\\
+
+\pagebreak
+\noindent Over time, the centromeric sequence puzzle has been gradually addressed as multiple sequencing and assembly methods have been attempted.\\
+
+\subsection{\footnotesize DECIPHERING HETEROCHROMATIN}
+
+\normalsize \noindent Emergence of shotgun sequenced genomes called for heterochromatin sequencing projects in order to understand the essential functions and genes residing in what makes up, for example in \textit{Drosophila}, a good third of the genome. Before this, most progress had been made through sequencing individual cloned transposons, genes and satellite DNA repeats and determining  their location with very low resolution through classical methods such as in situ hybridization of mitotic chromosomes \cite{garyislandspaper}.\\
+\\
+
+\noindent In the 1990s and early 2000s, in fruit flies, one approach made use of the 1.3 Mb \textit{Dp1187} \linebreak minichromosome and several of its deletion derivatives generated through irradiation, as a way to gain access to difficult parts of heterochromatin. \textit{Dp1187} heterochromatin was found to contain several complex DNA 'islands' immersed in simple satellite repeats. Analysis of its deletion \linebreak derivatives identified the minimum centric DNA necessary for this minichromosome to be maintained through meiosis and mitosis and estimated it to be about 420 kb in size \cite{garyislandspaper} (Figure 2). Sequencing and assembly efforts directed towards this minimal 420 kb sequence proved to be somewhat successful through restriction mapping analyses and generation of a 'centromere-enriched' library with 459 clones. The sequencing of 459 clones summed up to 947.9 kb of reads, of which little over half (495.6 kb) were from the centromeric region. The assembly of the centromeric reads yielded 13 contigs that spanned 19 \% of the targeted centromere (79.9 kb) \cite{garyislandspaper}. This \textit{Drosophila} minichromosome approach highlighted that centromeric DNA could be sequenced, despite being a laborious process, and gave hope that other similar approaches could be used to resolve naturally occurring centromeres, too.\\
+\pagebreak
+\begin{center}
+\hspace{-2cm}\includegraphics[scale=0.6]{dp1187.PNG} \\
+\end{center}
+\noindent \footnotesize \textbf{Figure 2.} Schematic of the \textit{Dp1187} minichromosome (here named \textit{Dp8-23}) and its radiation-generated deletion derivative \textit{$\gamma$1230}. Main features of the minichromosome are euchromatin, subtelomeric heterochromatin, the 359 base pairs satellite and 5 identified 'islands' of complex DNA named Tahiti, Moorea, Bora Bora and Maupiti inserted into AATAT and AAGAG simple satellite blocks. The breakpoints that gave rise to the 620 kb $\gamma$1230 derivative are shown. The 420 kb functional centromere was established by examining the transmission of multiple derivatives through mitosis and meiosis. \\
+
+
+\normalsize \noindent In 2007, the \dmel genome still had low contiguity and quality in the \linebreak heterochromatic regions of all chromosomes, due to the major challenges regarding cloning and assembly of simple sequence repeats, transposable elements and rDNA repeats. Generally, the shorter the repeats in question (e.g. fragments of transposable elements, satellites), the lower the chance to obtain a good assembly at that locus because it's more difficult to assign reads to a specific repeat copy. Compared to the euchromatic region, heterochromatic scaffolds had 5.8 times as many sequence gaps per Mb, as well as lower sequence quality \cite{DrosoHCseq}.\\
+
+\noindent The strategy to improve the heterochromatin assemblies involved a 10 kb clone library spanning the genome 15 times which was used to polish the individual low quality regions. For the higher order assemblies, BAC-based sequencing and physical mapping has been used. A total of 15 Mb of heterochromatic assembled scaffolds revealed clusters of complete and incomplete copies of transposable elements but were still inconclusive with respect to simple repeats or satellites \cite{DrosoHCseq}.\\
+
+\subsection{\footnotesize{ULTRA LONG READ SEQUENCING MAY BE THE ANSWER}}
+
+\normalsize \noindent In 2009, a novel kind of experiment used a transposon-based approach to sequence highly repetitive BAC clones. The general principle is to generate a library through a transposon random insertion step and physically map the precise position of the transposon, which allows to read up to a certain limit the bases around the transposon. This strategy allowed to assemble the Y chromosome of \textit{Drosophila} \textit{melanogaster} and reveal the telomeric nature of the repeats found within the Y chromosome centromere. While this is a feasible strategy to sequence a BAC containing a highly repetitive insert, sequencing a whole BAC library exponentially increases the time taken to resolve these repetitive regions \cite{villasante}.\\
+
+\normalsize \noindent Advances in technology such as Oxford Nanopore, however, now allow sequencing of entire BAC libraries such as the one obtained using the transposon approach mentioned above \cite{villasante}. A very recent report from April 2018 reports obtaining a linear assembly of the human Y centromere from a BAC library using nanopore long-read sequencing to produce high-quality reads that span hundreds of kilobases of highly repetitive DNA. The high-quality BAC consensus sequences were generated by multiple sequence alignment of 60 full-length 190kb BAC reads and were further 'polished' with Illumina data from the same BACs. Following polishing, an assembly was attempted with all the BAC sequences and the outcome spanned the entire centromere, connecting reads from the p and the q arm of the human Y centromere \cite{karenmigaOP}. Even though Nanopore technology makes sequencing through repetitive DNA much simpler, the validation issue and allocating contigs to different centromeres still remains. The human Y centromere success is partially owed to having a good starting BAC library, well-characterized high order repeats structures, as well as extensive work on previous mapping data \cite{karenmigaOP}. Finding out which of these sequences are bound by CenH3 is another intriguing question.\\
+
+\noindent For \dmel , the current strategy employs single molecule real time sequencing technology developed by Pacific Biosciences. Initially aimed to resolve autosomal complex satellite DNA \cite{responder}, the computational approaches have been redirected to be used with CenH3 ChIP-seq data. Several candidate contigs revealed either patterns that match the complex DNA immersed in simple satellite described for minichromosome Dp1187 (Section 3.1, Figure 2) or displayed long signals indicating stretches of consistent CenH3 bound sequences (Figure 3) or both. Several identified transposable elements known to be heterochromatic or centromeric are another indicative of a good contig candidate for centromeric sequences, and quantitative PCR experiments confirm that these transposable elements are enriched in the CenH3 ChIP samples as compared to the experimental input \cite{unpublished}.\\
+
+\noindent However, the same issues as before still stand -- allocating these contigs to \textit{Drosophila} chromosomes proves to be a daunting task, since chromosome painting technologies such as Oligopaint, as well as satellite DNA FISH experiments by themselves have a hard time distinguishing the X, 2 and 4 centromeres from each other \cite{unpublished}. Once the contigs are established, the challenge consists in confidently allocating them based on low-copy sequence variants that discriminate the contigs from each other. The level of stringency with which the in situ hybridizations are performed largely affect the outcome of the methods. Too low stringency results in signal across most centromeres, as there are many elements in the hybridization probes that bind to all of them. Increased stringency most likely causes a decrease in the intensity of the signals (as less probe binds). Detection of low signal may require high sensitivity of detection, which in turn means high noise.\\
+\vspace{-0.3cm}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{contig.png}\\
+\end{center}
+\noindent \footnotesize \textbf{Figure 3.} Browser shot of mapped Illumina data from a \dmel embryo CenH3 ChIP experiment \cite{unpublished}. Displayed here is the data for the immunoprecipitated sample as well as the DNA input, both in the form of blue peaks indicating regions thought to be bound by CenH3. Identified repetitive elements are depicted at the bottom, as reported by RepeatMasker 4.0.7 configured with the latest RepBase database. The data was mapped to a custom genome containing the latest \dmel version to which 173 candidate contigs were catenated. This shot displays a 53 kb portion of a candidate contig for the centromere of chromosome X and its relatively complex DNA with AAGAG satellite repeats at both ends. The peaks from CenH3 ChIP and Input samples are not normalized to each other in order to highlight the uneven signal, possibly attributed to sonication biases and multiple mapping difficulties.
+
+\pagebreak
+
+\section{\footnotesize CONCLUSIONS AND FUTURE RESEARCH}
+\normalsize
+\noindent Since the first description of primary constrictions of mitotic chromosomes in the 1880s \cite{firstcentromere1880}, \linebreak centromere research has come a long way. Before the genome projects, many satellites had been independently described and cytogenetically mapped to these primary constrictions \cite{garyislandspaper}. Later, the study of the alpha satellite of humans set the ground for a series of functional assays to determine if live cells are able to recognize such sequences and to assemble centromeres de novo \cite{HACspaperHarrington} \cite{HACspaperMasumoto} \cite{BethReviewFutureGenomics}. As the higher order organization of centromeres of humans and other organisms came into light, new challenges aimed to obtain sequence assemblies for centromeres of individual chromosomes in humans and some other well studied model organisms such as \dmel,\linebreak \textit{Schizosaccharomyces pombe} or \textit{Arabidopsis thaliana}.\\
+
+\noindent In 2018, the third generation sequencing techniques such as those developed by Oxford Nanopore and Pacific Biosciences offer a promising future where reliable linear genetic maps connect the p and q arm sequences for entire sets of chromosomes. Development of standard validation methods for such linear assemblies would be of immense value and could, soon enough, allow for sequencing of multiple genomes of different individuals or strains. With it, new functional assays and types of analyses could correlate satellite variation or higher order centromeric structure deviations to diseases involving abnormal chromosome segregation or even to infertility cases.\\
+
+\noindent Of course, it will be very long before personalized medicine can help answer questions about the latest findings in centromere research. In the meantime, basic research got a big boost with the development and perfection of the ultra long read sequencing. Other features, such as genes or noncoding elements yet have to be investigated. For example, masking out repeats in \dmel candidate contigs reveal single-copy genes such as klh10 encoding for Kelch-Like Protein 10, whose defective mutants are reported to influence male flies' fertility. It is unknown whether the centromeric chromatin environment is required for the proper functioning of this gene in \textit{Drosophila}, which could very well be the case, given that many genes in the drosophila genome actually reside in the heterochromatin \cite{BethReviewFutureGenomics}.
+
+\pagebreak
+\normalsize
+\bibliographystyle{unsrt}
+\bibliography{bib}
+
+\end{document}

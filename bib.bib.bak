@@ -1,0 +1,495 @@
+@Article{cheeseman2015,
+author = {McKinley KL and Cheeseman IM},
+title = {The molecular basis for centromere identity and function.},
+journal = {Nature Reviews Mol Cell Biol.},
+year = {2015},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {17},
+OPTpages = {16-29},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {https://www.ncbi.nlm.nih.gov/pubmed/26601620}
+}
+
+%[1]: McKinley, K.L. and Cheeseman, I.M. (2015) \textit{The molecular basis for centromere identity and function}. Nat. Rev. Mol. Cell Biol. 17, 16–29
+
+@Article{pointcentromere,
+author = {Cottarel G and Shero JH and Hieter P and Hegemann JH},
+title = {A 125-base-pair {CEN6} {DNA} fragment is sufficient for complete meiotic and mitotic centromere functions in {Saccharomyces} cerevisiae.},
+journal = {Mol. Cell. Biol.},
+year = {1989},
+OPTvolume = {•},
+OPTnumber = {9},
+OPTpages = {3342-3349},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% [2]: G. Cottarel, et al. (1989)\textit{ A 125-base-pair CEN6 DNA fragment is sufficient for complete meiotic and mitotic centromere functions in} \textit{Saccharomyces cerevisiae}. Mol. Cell. Biol., 9, 3342–3349\\
+
+
+@Article{leah.review,
+author = {Rosin LF and Mellone BG},
+title = {Centromeres drive a hard bargain.},
+journal = {Cell. Trends in Genetics},
+year = {2017},
+OPTkey = {•},
+OPTvolume = {33},
+OPTnumber = {2},
+OPTpages = {101-117},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+%\noindent [3]: L. Rosin and B.G. Mellone (2017) \textit{Centromeres drive a hard bargain.} Cell. Trends in Genetics, 7, Vol. 33, No. 2, pp 101-117.\\
+
+
+@Article{arabidopsis.centromeres,
+author = {Copenhaver GP and Nickel K and Kuromori T and Benito MI and Kaul S and Lin X and Bevan M and Murphy G and Harris B and Parnell LD and McCombie WR and Martienssen RA and Marra M and Preuss D},
+title = {Genetic definition and sequence analysis of Arabidopsis centromeres.},
+journal = {Science},
+year = {1999},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {286},
+OPTpages = {2468-2474},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
+%\noindent [4]: Copenhaver, G.P. et al. (1999) \textit{Genetic definition and sequence analysis of Arabidopsis centromeres.} Science 286, 2468–2474\\
+
+@Article{yeast.cen.transcription,
+author = {Ohkuni K and Kitagawa K},
+title = {Endogenous transcription at the centromere facilitates centromere activity in budding yeast.},
+journal = {Curr Biol.},
+year = {2011},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {21},
+OPTpages = {1695-1703},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [12]: Ohkuni K. and Kitagawa K. (2011) \textit{Endogenous transcription at the centromere facilitates centromere activity in budding yeast}. Curr Biol. Oct 25;21(20):1695-703\\
+
+@Article{gary.h3.3.placeholder,
+author = {Dunleavy EM and Almouzni G and Karpen GH},
+title = {H3.3 is deposited at centromeres in S phase as a placeholder for newly assembled CENP-A in G1 phase.},
+journal = {Nucleus},
+year = {2011},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {2},
+OPTpages = {146-157},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [13]: E.M. Dunleavy, et al. (2011) H3.3 is deposited at centromeres in S phase as a placeholder for newly assembled CENP-A in G1 phase. Nucleus, 2, pp. 146–157\\
+
+@Article{Bibi.Assembly,
+author = {Mellone BG and Grive KJ and Shteyn V and Sarion RB and Oderberg I and Karpen GH},
+title = {Assembly of Drosophila Centromeric Chromatin Proteins during Mitosis},
+journal = {PLoS Genetics},
+year = {2011},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {•},
+OPTpages = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [14]: B.G. Mellone et al.(2011). \textit{Assembly of Drosophila Centromeric Chromatin Proteins during Mitosis}, PLoS Genetics\\
+
+@Article{beth.gary.replication.timing,
+author = {Sullivan B and Karpen GH},
+title = {Centromere identity in Drosophila is not determined in vivo by replication timing.},
+journal = {J. Cell Biolo.},
+year = {2001},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {154},
+OPTpages = {683-690},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [15]: B. Sullivan, G. Karpen (2001) \textit{Centromere identity in Drosophila is not determined in vivo by replication timing.} J. Cell Biol., 154, pp. 683–690\\
+
+@Article{ChinChiFACT,
+author = {Chen CC and Bowers S and Lipinszki Z and Palladino J and Trusiak S and Bettini E and Rosin L and Przewloka MR and Glover DM and O'Neill RJ and Mellone BG},
+title = {Establishment of Centromeric Chromatin by the {CENP-A} Assembly Factor {CAL1} Requires {FACT}-Mediated Transcription.},
+journal = {Dev. Cell},
+year = {2015},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {34},
+OPTpages = {73-84},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [16]: C.C. Chen et al. (2015) \textit{Establishment of Centromeric Chromatin by the CENP-A Assembly Factor CAL1 Requires FACT-Mediated Transcription.} Dev Cell. 34(1):73-84.\\
+
+@Article{garyislandspaper,
+author = {Sun X and Le HD and Wahlstrom JM and Karpen GH},
+title = {Sequence analysis of a functional Drosophila centromere.},
+journal = {Genome Res},
+year = {2003},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {13},
+OPTpages = {182-194},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [5]: Sun, X. et al. (2003) \textit{Sequence analysis of a functional \textit{Drosophila} centromere.} Genome Res. 13, 182–194\\
+
+@Article{kinetochores.replication.uncoupling,
+author = {Shelby RD and Monier K and Sullivan KF},
+title = {Chromatin assembly at kinetochores is uncoupled from DNA replication.},
+journal = {J. Cell Biol.},
+year = {2000},
+OPTkey = {•},
+OPTvolume = {151},
+OPTnumber = {5},
+OPTpages = {1113-1118},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [6]: R.D. Shelby, et al. (2000) \textit{Chromatin assembly at kinetochores is uncoupled from DNA replication}. J. Cell Biol., 151, pp. 1113–1118\\
+
+
+@Article{wiens,
+author = {Wiens GR and Sorger PK},
+title = {Centromeric chromatin and epigenetic effects in kinetochore assembly},
+journal = {Cell},
+year = {1998},
+OPTkey = {•},
+OPTvolume = {93},
+OPTnumber = {•},
+OPTpages = {313-316},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [7]: Wiens, G.R. and Sorger, P.K. (1998) \textit{Centromeric chromatin and epigenetic effects in kinetochore assembly}. Cell 93, 313–316\\
+
+@Book{Malik2009,
+author="Malik, Harmit  S.",
+title="The Centromere-Drive Hypothesis: A Simple Basis for Centromere Complexity",
+bookTitle="Centromere: Structure and Evolution",
+year="2009",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="33--52",
+abstract="Centromeres are far more complex and evolutionarily labile than expected based on their conserved, essential function. The rapid evolution of both centromeric DNA and proteins strongly argue that centromeres are locked in an evolutionary conflict to increase their odds of transmission during asymmetric (female) meiosis. Evolutionary success for ``cheating'' centromeres can result in highly deleterious consequences for the species, either in terms of skewed sex ratios or male sterility. Centromeric proteins evolve rapidly to suppress the deleterious effects of ``centromere-drive.'' This chapter summarizes the mounting evidence in favor of the centromere-drive model, and its implications for centromere evolution in taxa with variations in meiosis.",
+isbn="978-3-642-00182-6",
+doi="10.1007/978-3-642-00182-6_2",
+url="https://doi.org/10.1007/978-3-642-00182-6_2"
+}
+
+
+% \noindent [8]: H.S. Malik (2009) \textit{Centromere - Chapter 2: The Centromere-Drive Hypothesis: A Simple Basis for Centromere Complexity}. Progress in molecular and subcellular biology\\
+
+
+
+@Article{leah.evo.paper,
+author = {Rosin L and Mellone BG},
+title = {Co-evolving CENP-A and CAL1 domains mediate centromeric CENP-A deposition across Drosophila species},
+journal = {Dev. Cell},
+year = {2016},
+OPTkey = {•},
+OPTvolume = {37},
+OPTnumber = {•},
+OPTpages = {136-147},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
+% \noindent [9]: Rosin, L. and Mellone, B.G. (2016) \textit{Co-evolving CENP-A and CAL1 domains mediate centromeric CENP-A deposition across \textit{Drosophila} species}. Dev. Cell 37, 136–147\\
+
+
+@Article{HACspaperHarrington,
+author = {Harrington JJ and Van Bokkelen G and Mays RW and Gustashaw K and Willard HF},
+title = {Formation of de novo centromeres and construction of first-generation human artificial microchromosomes.},
+journal = {Nature Genetics},
+year = {1997},
+OPTkey = {•},
+OPTvolume = {15},
+OPTnumber = {4},
+OPTpages = {345-355},
+OPTmonth = {April},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [10]: J.J. Harrington et al. (1997). \textit{Formation of de novo centromeres and construction of first-generation human artificial microchromosomes.} Nature Genetics. Apr;15(4):345-55.\\
+
+@Article{HACspaperMasumoto,
+author = {Masumoto H and Ikeno M and Nakano M and Okazaki T and Grimes B and Cooke H and Suzuki N},
+title = {Assay of centromere function using a human artificial chromosome.},
+journal = {Chromosoma},
+year = {1998},
+OPTkey = {•},
+OPTvolume = {107},
+OPTnumber = {6},
+OPTpages = {406-416},
+OPTmonth = {December},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [11]: H. Masumoto et al. (1998) \textit{Assay of centromere function using a human artificial chromosome.} Chromosoma. Dec;107(6-7):406-16.\\
+
+
+@Article{BethReviewFutureGenomics,
+author = {Aldrup-MacDonald ME and Sullivan BA},
+title = {The Past, Present, and Future of Human Centromere Genomics},
+journal = {Genes},
+year = {2014},
+OPTkey = {•},
+OPTvolume = {5},
+OPTnumber = {•},
+OPTpages = {33-50},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [17]: M.E. Aldrup-MacDonald and B.A. Sullivan (2007) \textit{The Past, Present, and Future of Human Centromere Genomics}. Genes 2014, 5, 33-50\\
+
+@Article{DrosoHCseq,
+author = {Hoskins RA and Carlson JW and Kennedy C and Acevedo D and Evans-Holm M and Frise E and Wan KH and Park S and Me\'ndez-Lago M and Rossi F and Villasante A and Dimitri P and Karpen GH and Celniker SE},
+title = {Sequence Finishing and Mapping of Drosophila melanogaster Heterochromatin.},
+journal = {Science},
+year = {2007},
+OPTkey = {•},
+OPTvolume = {316},
+OPTnumber = {5831},
+OPTpages = {1625-1628},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [18]: R.A. Hoskins, et al. (2007) \textit{Sequence Finishing and Mapping of \textit{Drosophila melanogaster} Heterochromatin.} Science. 316(5831): 1625–1628.\\
+
+@Article{villasante,
+author = {Méndez-Lago M and Wild J and Whitehead SL and Tracey A and de Pablos B and Rogers J and Szybalski W and Villasante A},
+title = {Novel sequencing strategy for repetitive DNA in a Drosophila BAC clone reveals that the centromeric region of the Y chromosome evolved from a telomere.},
+journal = {Nucleic Acids Res.},
+year = {2009},
+OPTkey = {•},
+OPTvolume = {37},
+OPTnumber = {7},
+OPTpages = {2264-2273},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+% \noindent [19]: M. Méndez-Lago et al. (2009) \textit{Novel sequencing strategy for repetitive DNA in a Drosophila BAC clone reveals that the centromeric region of the Y chromosome evolved from a telomere.}. Nucleic Acids Res. 37(7):2264-73.\\
+
+@article {Jain170373,
+	author = {Jain, Miten and Olsen, Hugh E. and Turner, Daniel J. and Stoddart, David and Bulazel, Kira V. and Paten, Benedict and Haussler, David and Willard, Huntington F and Akeson, Mark and Miga, Karen H.},
+	title = {Linear Assembly of a Human Y Centromere},
+	year = {2018},
+	doi = {10.1101/170373},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {The human genome reference sequence remains incomplete due to the challenge of assembling long tracts of near-identical tandem repeats in centromeric regions. To address this, we have implemented a nanopore sequencing strategy to generate high quality reads that span hundreds of kilobases of highly repetitive DNAs. Here, we use this advance to produce a sequence assembly and characterization of the centromeric region of a human Y chromosome.},
+	URL = {https://www.biorxiv.org/content/early/2018/02/05/170373},
+	eprint = {https://www.biorxiv.org/content/early/2018/02/05/170373.full.pdf},
+	journal = {bioRxiv}
+}
+
+
+@Article{dodecaimotifs,
+author = {Garavís M and Méndez-Lago M and Gabelica V and Whitehead SL and González C and Villasante A},
+title = {The structure of an endogenous Drosophila centromere reveals the prevalence of tandemly repeated sequences able to form i-motifs.},
+journal = {Scientific Reports},
+year = {2015},
+OPTkey = {•},
+OPTvolume = {•},
+OPTnumber = {•},
+OPTpages = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Article{BergmannUP,
+author = {Bergmann JH and Jakubsche JN and Martins NM and Kagansky A and Nakano M and Kimura H and Kelly DA and Turner BM and Masumoto H and Larionov V and Earnshaw WC},
+title = {Epigenetic engineering: histone {H3K9} acetylation is compatible with kinetochore structure and function},
+journal = {Journal of Cell Science},
+year = {2012},
+OPTkey = {•},
+OPTvolume = {125},
+OPTnumber = {2},
+OPTpages = {411-421},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Inbook{RachelBookCH,
+author="Duda, Zachary
+and Trusiak, Sarah
+and O'Neill, Rachel",
+title="Centromere Transcription: Means and Motive    ",
+bookTitle="Centromeres and Kinetochores: Discovering the Molecular Mechanisms Underlying Chromosome Inheritance",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="257--281",
+abstract="The chromosome biology field at large has benefited from studies of the cell cycle components, protein cascades and genomic landscape that are required for centromere identity, assembly and stable transgenerational inheritance. Research over the past 20 years has challenged the classical descriptions of a centromere as a stable, unmutable, and transcriptionally silent chromosome component. Instead, based on studies from a broad range of eukaryotic species, including yeast, fungi, plants, and animals, the centromere has been redefined as one of the more dynamic areas of the eukaryotic genome, requiring coordination of protein complex assembly, chromatin assembly, and transcriptional activity in a cell cycle specific manner. What has emerged from more recent studies is the realization that the transcription of specific types of nucleic acids is a key process in defining centromere integrity and function. To illustrate the transcriptional landscape of centromeres across eukaryotes, we focus this review on how transcripts interact with centromere proteins, when in the cell cycle centromeric transcription occurs, and what types of sequences are being transcribed. Utilizing data from broadly different organisms, a picture emerges that places centromeric transcription as an integral component of centromere function.",
+isbn="978-3-319-58592-5",
+doi="10.1007/978-3-319-58592-5_11",
+url="https://doi.org/10.1007/978-3-319-58592-5_11"
+}
+
+@Article{mice.meioticdrive,
+author = {Iwata-Otsubo A and Dawicki-McKenna JM and Akera T and Falk SJ and Chmatal L and Yang K and Sullivan BA and Schultz RM and Lampson MA and Black BE},
+title = {Expanded satellite repeats amplify a discrete CENP-A nucleosome assembly site on chromosomes that drive in female meiosis.},
+journal = {Curr. Biol.},
+year = {2017},
+OPTkey = {•},
+OPTvolume = {27},
+OPTnumber = {•},
+OPTpages = {2365-2373},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
+@Article{meioticdrivereviewAL,
+author = {Lindholm AK and Dyer KA and Firman RC and Fishman L and Forstmeier W and Holman L and Johannesson H and Knief U and Kokko H and Larracuente AM and Manser A and Montchamp-Moreau C and Petrosyan VG and Pomiankowski A and Presgraves DC and Safronova LD and Sutter A and Unckless RL and Verspoor RL and Wedell N and Wilkinson GS and Price TAR},
+title = {The Ecology and Evolutionary Dynamics of Meiotic Drive},
+journal = {Trends in Ecology and Evolution},
+year = {2016},
+OPTkey = {•},
+OPTvolume = {31},
+OPTnumber = {4},
+OPTpages = {315-326},
+OPTmonth = {April},
+OPTnote = {},
+OPTannote = {•}
+}
+
+@Article{epialleles,
+author = {Aldrup-MacDonald ME and Kuo ME and Sullivan LL and Chew K and Sullivan BA},
+title = {Genomic variation within alpha satellite {DNA} influences centromere location on human chromosomes with metastable epialleles.},
+journal = {Genome Research},
+year = {2016},
+OPTkey = {•},
+OPTvolume = {10},
+OPTnumber = {•},
+OPTpages = {1301-1311},
+OPTmonth = {October},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Article{responder,
+author = {Khost DE and Eickbush DG and Larracuente AM},
+title = {Single-molecule sequencing resolves the detailed structure of complex satellite DNA loci in Drosophila melanogaster.},
+journal = {Genome research},
+year = {2017},
+OPTkey = {•},
+OPTvolume = {27},
+OPTnumber = {•},
+OPTpages = {709-721},
+OPTmonth = {May},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Article{newMalikreview,
+author = {Kursel LE, Malik HS},
+title = {The cellular mechanisms and consequences of centromere drive},
+journal = {Current Opinion in Plant Biology},
+year = {2018},
+OPTkey = {•},
+OPTvolume = {52},
+OPTnumber = {•},
+OPTpages = {58-65},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
+@Article{henikoffpaper,
+author = {Kasinathan S and Henikoff S},
+title = {Non-B-Form DNA Is Enriched at Centromeres},
+journal = {Molecular Biology and Evolution},
+year = {2018},
+OPTkey = {•},
+OPTvolume = {35},
+OPTnumber = {4},
+OPTpages = {949-962},
+OPTmonth = {April},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+@Article{karenmigaOP,
+author = {Jain M and Olsen HE and Turner DJ and Stoddart D and Bulazel KV and Paten B and Haussler D and Willard HF and Akeson M and Miga KH},
+title = {Linear assembly of a human centromere on the Y chromosome},
+journal = {Nature Biotechnology},
+year = {2018},
+OPTkey = {•},
+OPTvolume = {36},
+OPTnumber = {},
+OPTpages = {321-323},
+OPTmonth = {April},
+OPTnote = {•},
+OPTannote = {•}
+}
+
+
+@Unpublished{unpublished,
+author = {Larracuente AM and Mellone BG},
+title = {Unpublished data},
+note = {•},
+OPTkey = {•},
+OPTmonth = {•},
+OPTyear = {2017},
+OPTannote = {•}
+}
+
+
+@Article{firstcentromere1880,
+author = {O'Connor C},
+title = {Chromosome Segregation in Mitosis: The Role of Centromeres},
+journal = {Nature Education},
+year = {2008},
+OPTkey = {•},
+OPTvolume = {1},
+OPTnumber = {1},
+OPTpages = {28},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
